@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('wallpaper.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh; 
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto; 
+    padding: 20px;
+    text-align: center;
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    opacity: 0.9; 
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #AA336A;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #F8C8DC;
+    color: #953553;
+    border: none;
+    padding: 15px 25px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #FFB6C1;
+}
+
+.logout {
+    background-color: #FF6B6B;
+}
+
+.logout:hover {
+    background-color: #E45858;
+}
+
+input[type="text"], select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #D1BBD7;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #6B4F4F;
+}
+
+.info-box {
+    background-color: #D8BFD8;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+.back-to-menu-container {
+    margin-top: 20px;
+}
+
+.back-to-menu-container .button {
+    background-color: #D1BBD7;
+    width: auto;
+    padding: 10px 20px;
+}
+
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    color: #953553;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.toggle-button:hover {
+    color: #FA8072;
+}
